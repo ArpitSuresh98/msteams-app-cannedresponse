@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddButtonText" xml:space="preserve">
+    <value>保存</value>
+    <comment>Add button text in client app.</comment>
+  </data>
+  <data name="AddNewButtonText" xml:space="preserve">
+    <value>新增</value>
+    <comment>Add new button text for client app.</comment>
+  </data>
+  <data name="AddNewSuggestionFailedMessage" xml:space="preserve">
+    <value>出现问题。请再次提出建议。</value>
+    <comment>Error message when failed to suggest a new request to company KB.</comment>
+  </data>
+  <data name="AddNewSuggestionSuccessMessage" xml:space="preserve">
+    <value>已添加建议!</value>
+    <comment>Success message on successfully adding new suggestion in company responses.</comment>
+  </data>
+  <data name="AddUserResponseFailedMessage" xml:space="preserve">
+    <value>出现错误。请再次尝试添加响应。</value>
+    <comment>Error message shown if a new response is not added for some reason.</comment>
+  </data>
+  <data name="AddUserResponseSuccessMessage" xml:space="preserve">
+    <value>添加成功!</value>
+    <comment>Success message on successfully adding user response in my responses.</comment>
+  </data>
+  <data name="ApproveButtonTitle" xml:space="preserve">
+    <value>接受</value>
+    <comment>Approve button title text in new suggested response notification card in SME team.</comment>
+  </data>
+  <data name="ApprovedAdminCardLabelText" xml:space="preserve">
+    <value>已批准: 由 {1} 于 {0}</value>
+    <comment>Show datetime and approver name for approved request on refreshed card.</comment>
+  </data>
+  <data name="ApprovedCardLabelText" xml:space="preserve">
+    <value>已批准: {0}</value>
+    <comment>Show datetime for approved request.</comment>
+  </data>
+  <data name="ApprovedRequestRefreshCardTitle" xml:space="preserve">
+    <value>**请求已批准**</value>
+    <comment>Show the title after request has approved on refreshed card.</comment>
+  </data>
+  <data name="ApproveToggleCardLabelPlaceholder" xml:space="preserve">
+    <value>类型类别</value>
+    <comment>Approve toggle card label placeholder text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="ApproveToggleCardCategoryTitle" xml:space="preserve">
+    <value>类别</value>
+    <comment>Approve toggle card category title text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="ApproveToggleCardQuestionsPlaceholder" xml:space="preserve">
+    <value>用分号 (;) 分隔的问题</value>
+    <comment>Approve toggle card questions placeholder text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="ApproveToggleCardQuestionsTitle" xml:space="preserve">
+    <value>问题</value>
+    <comment>Approve toggle card questions title text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="ApproveToggleCardResponsePlaceholder" xml:space="preserve">
+    <value>键入答复</value>
+    <comment>Approve toggle card response placeholder text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="ApproveToggleCardResponseTitle" xml:space="preserve">
+    <value>答复</value>
+    <comment>Approve toggle card response title text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="ApproveToggleCardSubmitButtonTitle" xml:space="preserve">
+    <value>提交</value>
+    <comment>Approve toggle card submit button title text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="BackButtonText" xml:space="preserve">
+    <value>返回</value>
+    <comment>Back button text used in client app.</comment>
+  </data>
+  <data name="CancelButtonText" xml:space="preserve">
+    <value>取消</value>
+    <comment>Cancel button text to be displayed in client app.</comment>
+  </data>
+  <data name="ChatTextButton" xml:space="preserve">
+    <value>与 {0} 聊天</value>
+    <comment>Ability to chat directly with end user from SME channel.</comment>
+  </data>
+  <data name="CompanyResponsesMenuText" xml:space="preserve">
+    <value>公司答复</value>
+    <comment>Company responses menu text in client app.</comment>
+  </data>
+  <data name="ConfirmButtonText" xml:space="preserve">
+    <value>确认</value>
+    <comment>Confirm button text to be displayed in client app.</comment>
+  </data>
+  <data name="DateFormat" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Used in date string format for adaptive card. {0} is for date and {1} is for time.</comment>
+  </data>
+  <data name="DeleteButtonText" xml:space="preserve">
+    <value>删除</value>
+    <comment>Delete button text in client app.</comment>
+  </data>
+  <data name="DialogConfirmHeader" xml:space="preserve">
+    <value>操作确认</value>
+    <comment>Header for action confirmation for dialog in client app.</comment>
+  </data>
+  <data name="DialogConfirmText" xml:space="preserve">
+    <value>是否确定要确认此操作?</value>
+    <comment>Message to be displayed when user submits an action through dialog in client app.</comment>
+  </data>
+  <data name="EditButtonText" xml:space="preserve">
+    <value>编辑</value>
+    <comment>Edit button text for client app.</comment>
+  </data>
+  <data name="EditUserResponseFailedMessage" xml:space="preserve">
+    <value>出现问题。请尝试再次更新。</value>
+    <comment>Error message when editing an entry failed.</comment>
+  </data>
+  <data name="EditUserResponseSuccessMessage" xml:space="preserve">
+    <value>更新已保存!</value>
+    <comment>Success message when editing an entry successfully.</comment>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>出现 问 题。 请在几分钟后重试。</value>
+    <comment>Error message when bot throws exception or unable to perform a task (Generic error message).</comment>
+  </data>
+  <data name="ErrorMessageOnApprove" xml:space="preserve">
+    <value>类别、问题和答复字段是批准答复的必备条件。</value>
+    <comment>Show error message while approving the suggested response if any field is empty.</comment>
+  </data>
+  <data name="FieldRequiredMessage" xml:space="preserve">
+    <value>此 字段 为 必填字段</value>
+    <comment>Error message when user did not fill all the mandatory field in client app.</comment>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>类别</value>
+    <comment>Label text used in form for client app.</comment>
+  </data>
+  <data name="ManageYourResponsesTitleText" xml:space="preserve">
+    <value>管理答复</value>
+    <comment>Manage your responses subtitle text shown below the bot name when my responses or company responses task module opens.</comment>
+  </data>
+  <data name="MaxResponsesMessage" xml:space="preserve">
+    <value>最多可以创建 200 个用户回复</value>
+    <comment>Max responses message to be displayed in client app.</comment>
+  </data>
+  <data name="MyResponsesText" xml:space="preserve">
+    <value>你的答复</value>
+    <comment>My responses text to be displayed in client app.</comment>
+  </data>
+  <data name="NotificationCardApprovedOrRejectedTitle" xml:space="preserve">
+    <value>**感谢所提出的公司答复建议。**</value>
+    <comment>Show approved title for approved response request to user.</comment>
+  </data>
+  <data name="NotificationCardLabelText" xml:space="preserve">
+    <value>**类别:**</value>
+    <comment>Notification card label text.</comment>
+  </data>
+  <data name="NotificationCardQuestion" xml:space="preserve">
+    <value>**问题:**</value>
+    <comment>Notification card question.</comment>
+  </data>
+  <data name="NotificationCardRemark" xml:space="preserve">
+    <value>**注释**</value>
+    <comment>Notification card remark.</comment>
+  </data>
+  <data name="NotificationCardRequestReject" xml:space="preserve">
+    <value>**已拒绝请求**</value>
+    <comment>Notification card request rejected.</comment>
+  </data>
+  <data name="NotificationCardRequestText" xml:space="preserve">
+    <value>由 {0} 建议</value>
+    <comment>Notification card request reject text.</comment>
+  </data>
+  <data name="NotificationCardResponse" xml:space="preserve">
+    <value>**答复:**</value>
+    <comment>Notification card response.</comment>
+  </data>
+  <data name="NotificationCardStatusText" xml:space="preserve">
+    <value>状态: {0}</value>
+    <comment>Notification card status text.</comment>
+  </data>
+  <data name="NotificationRequestCardContentText" xml:space="preserve">
+    <value>**最新! 公司对审批的答复**</value>
+    <comment>Notification request card content text.</comment>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>问题</value>
+    <comment>Question text for client app.</comment>
+  </data>
+  <data name="Questions" xml:space="preserve">
+    <value>问题</value>
+    <comment>Questions title text used in form for client app.</comment>
+  </data>
+  <data name="RefreshedNotificationCardRequestText" xml:space="preserve">
+    <value>由 {0} 建议</value>
+    <comment>Notification card request text after approval or rejection.</comment>
+  </data>
+  <data name="RejectButtonTitle" xml:space="preserve">
+    <value>拒绝</value>
+    <comment>Reject button title text in new suggested response notification card in SME team.</comment>
+  </data>
+  <data name="RejectedAdminCardLabelText" xml:space="preserve">
+    <value>已拒绝: 由 {1} 于 {0}</value>
+    <comment>Show datetime and rejector name for rejected request on refreshed card.</comment>
+  </data>
+  <data name="RejectedCardLabelText" xml:space="preserve">
+    <value>已拒绝: {0}</value>
+    <comment>Show datetime for rejected request.</comment>
+  </data>
+  <data name="RejectToggleCardRemarkPlaceholder" xml:space="preserve">
+    <value>解释拒绝原因 (可选)</value>
+    <comment>Reject toggle card remark placeholder text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="RejectToggleCardRemarkTitle" xml:space="preserve">
+    <value>注释</value>
+    <comment>Reject toggle card remark title text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="RejectToggleCardSubmitButtonTitle" xml:space="preserve">
+    <value>提交</value>
+    <comment>Reject toggle card submit button title text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="RequestedOnText" xml:space="preserve">
+    <value>已请求</value>
+    <comment>Requested on text in client app.</comment>
+  </data>
+  <data name="RequestsMenuText" xml:space="preserve">
+    <value>请求</value>
+    <comment>Requests menu text in client app.</comment>
+  </data>
+  <data name="Response" xml:space="preserve">
+    <value>答复</value>
+    <comment>Response text used in form for client app.</comment>
+  </data>
+  <data name="SearchPlaceholder" xml:space="preserve">
+    <value>搜索...</value>
+    <comment>Search input placeholder in client app.</comment>
+  </data>
+  <data name="StatusText" xml:space="preserve">
+    <value>状态</value>
+    <comment>Status text in client app.</comment>
+  </data>
+  <data name="SuggestButtonText" xml:space="preserve">
+    <value>建议</value>
+    <comment>Suggest button text used in client app.</comment>
+  </data>
+  <data name="SuggestNewButtonText" xml:space="preserve">
+    <value>建议新</value>
+    <comment>Suggest new button text used in client app.</comment>
+  </data>
+  <data name="TypeCategoryPlaceholder" xml:space="preserve">
+    <value>类型类别</value>
+    <comment>Placeholder for category text input used in form for client app.</comment>
+  </data>
+  <data name="TypeQuestionPlaceholder" xml:space="preserve">
+    <value>用分号 (;) 分隔的问题</value>
+    <comment>Placeholder for question text input used in form for client app.</comment>
+  </data>
+  <data name="TypeResponsePlaceholder" xml:space="preserve">
+    <value>键入答复</value>
+    <comment>Placeholder for response text input used in form for client app.</comment>
+  </data>
+  <data name="UpdateAndShareButtonText" xml:space="preserve">
+    <value>发送更新</value>
+    <comment>Update and share button text in client app.</comment>
+  </data>
+  <data name="UpdateButtonText" xml:space="preserve">
+    <value>保存</value>
+    <comment>Update button text in client app.</comment>
+  </data>
+  <data name="WelcomeCardChatRequestorContentText" xml:space="preserve">
+    <value>- 与请求者聊天。</value>
+    <comment>Welcome card content text10.</comment>
+  </data>
+  <data name="WelcomeCardContent" xml:space="preserve">
+    <value>点击“信息格式选项”附近的“我的图标”小版本开始。</value>
+    <comment>Welcome card content text.</comment>
+  </data>
+  <data name="WelcomeCardLabelContentText" xml:space="preserve">
+    <value>- 在最后提交之前，编辑答复回复。</value>
+    <comment>Welcome card content text9.</comment>
+  </data>
+  <data name="WelcomeCardResponseListContentText" xml:space="preserve">
+    <value>- 管理你的个人答复。</value>
+    <comment>Welcome card content text2.</comment>
+  </data>
+  <data name="WelcomeCardSuggestedContentText" xml:space="preserve">
+    <value>-建议新响应以在公司范围内使用，并检查您的请求状态。</value>
+    <comment>Welcome card content text7.</comment>
+  </data>
+  <data name="WelcomeCardSuggestResponseContentText" xml:space="preserve">
+    <value>-建议新响应以添加到公司响应。</value>
+    <comment>Welcome card content text4.</comment>
+  </data>
+  <data name="WelcomeCardThingsContentText" xml:space="preserve">
+    <value>以下是我能够执行的一些操作:</value>
+    <comment>Welcome card content text1.</comment>
+  </data>
+  <data name="WelcomeCardTitle" xml:space="preserve">
+    <value>欢迎加入! 你好，我可以帮你管理在聊天信息中搜索和共享的快速回复。</value>
+    <comment>Welcome card title text.</comment>
+  </data>
+  <data name="ForbiddenErrorMessage" xml:space="preserve">
+    <value>您不能访问此页面。请联系你的 IT 管理员以获得权限。</value>
+    <comment>Forbidden http status code.</comment>
+  </data>
+  <data name="GeneralErrorMessage" xml:space="preserve">
+    <value>出现 问 题。 请在几分钟后重试。</value>
+    <comment>General error message to be shown in client app.</comment>
+  </data>
+  <data name="RefreshLinkText" xml:space="preserve">
+    <value>刷新</value>
+    <comment>Refresh link text for error page in client app.</comment>
+  </data>
+  <data name="UnauthorizedErrorMessage" xml:space="preserve">
+    <value>出现 问 题。 请在几分钟后重试。</value>
+    <comment>Http status code 404</comment>
+  </data>
+  <data name="UserCustomMessage" xml:space="preserve">
+    <value>你好，不支持机器人命令。</value>
+    <comment>When user asks bot a questions- a message appears saying that bot command is not supported in personal scope.</comment>
+  </data>
+  <data name="ErrorWhenMessageInChannel" xml:space="preserve">
+    <value>应用不支持任何机器人命令，请使用消息传递扩展以获得更好的效果。</value>
+    <comment>Error message when Admin messages in channel.</comment>
+  </data>
+  <data name="WelcomeCardContentForAdmin" xml:space="preserve">
+    <value>你好，我可以协助你管理用户提交的回复。</value>
+    <comment>Welcome card content text for admin.</comment>
+  </data>
+  <data name="ApprovedRequestStatusText" xml:space="preserve">
+    <value>已批准</value>
+    <comment>Show status as approved for approved response request to user.</comment>
+  </data>
+  <data name="RejectedRequestStatusText" xml:space="preserve">
+    <value>已拒绝</value>
+    <comment>Show status as Rejected for Rejected response request to user.</comment>
+  </data>
+  <data name="MaxCompanyResponseMessage" xml:space="preserve">
+    <value>已批准的公司响应已达到最大限制。请与管理员联系以获取更多详细信息。</value>
+    <comment>Max responses message to be displayed in client app.</comment>
+  </data>
+  <data name="AdminManifestFullDescription" xml:space="preserve">
+    <value>托管用户在最终提交前已提交公司响应并修改了快速响应类别、标签和响应文本。</value>
+    <comment>{MaxLength=4000}
+Admin manifest full description</comment>
+  </data>
+  <data name="AdminManifestFullName" xml:space="preserve">
+    <value>快速响应管理员机器人</value>
+    <comment>{MaxLength=100}
+Admin manifest full name</comment>
+  </data>
+  <data name="AdminManifestShortDescription" xml:space="preserve">
+    <value>快速响应管理机器人，可帮助您管理用户已提交的响应。</value>
+    <comment>{MaxLength=80}
+Admin manifest short description</comment>
+  </data>
+  <data name="AdminManifestShortName" xml:space="preserve">
+    <value>快速响应管理员</value>
+    <comment>{MaxLength=30}
+Admin manifest short name</comment>
+  </data>
+  <data name="BotCommandTakeATour" xml:space="preserve">
+    <value>浏览</value>
+    <comment>Bot command take a tour</comment>
+  </data>
+  <data name="BotCommandTakeATourDescription" xml:space="preserve">
+    <value>浏览</value>
+    <comment>Bot command take a tour description</comment>
+  </data>
+  <data name="ComposeExtensionCommandParameterCompanyResponse" xml:space="preserve">
+    <value>companyResponses</value>
+    <comment>Compose extension command parameter company response</comment>
+  </data>
+  <data name="ComposeExtensionCommandParameterCompanyResponseDescription" xml:space="preserve">
+    <value>输入关键字或类别</value>
+    <comment>Compose extension command parameter company response description</comment>
+  </data>
+  <data name="ComposeExtensionCommandParameterYourResponse" xml:space="preserve">
+    <value>yourResponses</value>
+    <comment>Compose extension command parameter your response</comment>
+  </data>
+  <data name="ComposeExtensionCommandParameterYourResponseDescription" xml:space="preserve">
+    <value>输入关键字或类别</value>
+    <comment>Compose extension command parameter your response Description</comment>
+  </data>
+  <data name="ComposeExtensionCompanyResponseDescription" xml:space="preserve">
+    <value>建议新的公司响应</value>
+    <comment>Compose extension comapny response description</comment>
+  </data>
+  <data name="ComposeExtensionParameterCompanyResponseDescription" xml:space="preserve">
+    <value>建议新的公司响应</value>
+    <comment>Compose extension parameter company response description</comment>
+  </data>
+  <data name="ComposeExtensionParameterYourResponseDescription" xml:space="preserve">
+    <value>管理快速响应</value>
+    <comment>Compose extension parameter your response description</comment>
+  </data>
+  <data name="ComposeExtensionsCommandCompanyResponses" xml:space="preserve">
+    <value>公司响应</value>
+    <comment>Compose extension command company response</comment>
+  </data>
+  <data name="ComposeExtensionsCommandCompanyResponsesDescription" xml:space="preserve">
+    <value>共享公司快速响应</value>
+    <comment>Compose extension command company response description</comment>
+  </data>
+  <data name="ComposeExtensionsCommandYourResponses" xml:space="preserve">
+    <value>你的响应</value>
+    <comment>Compose extension command your response</comment>
+  </data>
+  <data name="ComposeExtensionsCommandYourResponsesDescription" xml:space="preserve">
+    <value>共享快速响应</value>
+    <comment>Compose extension command your response description</comment>
+  </data>
+  <data name="ComposeExtensionYourResponseDescription" xml:space="preserve">
+    <value>管理快速响应</value>
+    <comment>Compose extension your response description</comment>
+  </data>
+  <data name="EndUserManifestFullDescription" xml:space="preserve">
+    <value>管理快速响应并在团队内或通过消息传递扩展在个人聊天中共享。</value>
+    <comment>{MaxLength=4000}
+End user manifest full description</comment>
+  </data>
+  <data name="EndUserManifestFullName" xml:space="preserve">
+    <value>快速响应机器人</value>
+    <comment>{MaxLength=100}
+End user manifest Full name</comment>
+  </data>
+  <data name="EndUserManifestShortDescription" xml:space="preserve">
+    <value>使用消息扩展设置并发送快速响应。</value>
+    <comment>{MaxLength=80}
+End user manifest short description</comment>
+  </data>
+  <data name="EndUserManifestShortName" xml:space="preserve">
+    <value>快速响应</value>
+    <comment>{MaxLength=30}
+End user manifest short name</comment>
+  </data>
+</root>

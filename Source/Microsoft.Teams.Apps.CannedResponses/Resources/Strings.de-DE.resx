@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddButtonText" xml:space="preserve">
+    <value>Speichern</value>
+    <comment>Add button text in client app.</comment>
+  </data>
+  <data name="AddNewButtonText" xml:space="preserve">
+    <value>Neu hinzufügen</value>
+    <comment>Add new button text for client app.</comment>
+  </data>
+  <data name="AddNewSuggestionFailedMessage" xml:space="preserve">
+    <value>Etwas ist schief gelaufen. Machen Sie Ihren Vorschlag noch einmal.</value>
+    <comment>Error message when failed to suggest a new request to company KB.</comment>
+  </data>
+  <data name="AddNewSuggestionSuccessMessage" xml:space="preserve">
+    <value>Vorschlag hinzugefügt!</value>
+    <comment>Success message on successfully adding new suggestion in company responses.</comment>
+  </data>
+  <data name="AddUserResponseFailedMessage" xml:space="preserve">
+    <value>Da hat etwas nicht geklappt. Versuchen Sie erneut, eine Antwort hinzu zufügen.</value>
+    <comment>Error message shown if a new response is not added for some reason.</comment>
+  </data>
+  <data name="AddUserResponseSuccessMessage" xml:space="preserve">
+    <value>Erfolgreich hinzugefügt!</value>
+    <comment>Success message on successfully adding user response in my responses.</comment>
+  </data>
+  <data name="ApproveButtonTitle" xml:space="preserve">
+    <value>Genehmigen</value>
+    <comment>Approve button title text in new suggested response notification card in SME team.</comment>
+  </data>
+  <data name="ApprovedAdminCardLabelText" xml:space="preserve">
+    <value>Genehmigt: {0} von {1}</value>
+    <comment>Show datetime and approver name for approved request on refreshed card.</comment>
+  </data>
+  <data name="ApprovedCardLabelText" xml:space="preserve">
+    <value>Genehmigt: {0}</value>
+    <comment>Show datetime for approved request.</comment>
+  </data>
+  <data name="ApprovedRequestRefreshCardTitle" xml:space="preserve">
+    <value>** Anfrage genehmigt **</value>
+    <comment>Show the title after request has approved on refreshed card.</comment>
+  </data>
+  <data name="ApproveToggleCardLabelPlaceholder" xml:space="preserve">
+    <value>Typkategorie</value>
+    <comment>Approve toggle card label placeholder text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="ApproveToggleCardCategoryTitle" xml:space="preserve">
+    <value>Kategorie</value>
+    <comment>Approve toggle card category title text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="ApproveToggleCardQuestionsPlaceholder" xml:space="preserve">
+    <value>Geben Sie Fragen ein, die durch Semikolons (;) getrennt sind.</value>
+    <comment>Approve toggle card questions placeholder text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="ApproveToggleCardQuestionsTitle" xml:space="preserve">
+    <value>Frage(n)</value>
+    <comment>Approve toggle card questions title text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="ApproveToggleCardResponsePlaceholder" xml:space="preserve">
+    <value>Antwort eingeben</value>
+    <comment>Approve toggle card response placeholder text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="ApproveToggleCardResponseTitle" xml:space="preserve">
+    <value>Antwort</value>
+    <comment>Approve toggle card response title text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="ApproveToggleCardSubmitButtonTitle" xml:space="preserve">
+    <value>Senden</value>
+    <comment>Approve toggle card submit button title text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="BackButtonText" xml:space="preserve">
+    <value>Zurück</value>
+    <comment>Back button text used in client app.</comment>
+  </data>
+  <data name="CancelButtonText" xml:space="preserve">
+    <value>Abbrechen</value>
+    <comment>Cancel button text to be displayed in client app.</comment>
+  </data>
+  <data name="ChatTextButton" xml:space="preserve">
+    <value>Chat mit {0}</value>
+    <comment>Ability to chat directly with end user from SME channel.</comment>
+  </data>
+  <data name="CompanyResponsesMenuText" xml:space="preserve">
+    <value>Unternehmensantworten</value>
+    <comment>Company responses menu text in client app.</comment>
+  </data>
+  <data name="ConfirmButtonText" xml:space="preserve">
+    <value>Bestätigen</value>
+    <comment>Confirm button text to be displayed in client app.</comment>
+  </data>
+  <data name="DateFormat" xml:space="preserve">
+    <value>{0} {1}</value>
+    <comment>Used in date string format for adaptive card. {0} is for date and {1} is for time.</comment>
+  </data>
+  <data name="DeleteButtonText" xml:space="preserve">
+    <value>Löschen</value>
+    <comment>Delete button text in client app.</comment>
+  </data>
+  <data name="DialogConfirmHeader" xml:space="preserve">
+    <value>Aktionsbestätigung</value>
+    <comment>Header for action confirmation for dialog in client app.</comment>
+  </data>
+  <data name="DialogConfirmText" xml:space="preserve">
+    <value>Möchten Sie diese Aktion wirklich bestätigen?</value>
+    <comment>Message to be displayed when user submits an action through dialog in client app.</comment>
+  </data>
+  <data name="EditButtonText" xml:space="preserve">
+    <value>Bearbeiten</value>
+    <comment>Edit button text for client app.</comment>
+  </data>
+  <data name="EditUserResponseFailedMessage" xml:space="preserve">
+    <value>Etwas ist schief gelaufen. Versuchen Sie erneut zu aktualisieren.</value>
+    <comment>Error message when editing an entry failed.</comment>
+  </data>
+  <data name="EditUserResponseSuccessMessage" xml:space="preserve">
+    <value>Update wurde gespeichert!</value>
+    <comment>Success message when editing an entry successfully.</comment>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>Etwas ist schief gelaufen. Versuchen Sie es in wenigen Minuten erneut.</value>
+    <comment>Error message when bot throws exception or unable to perform a task (Generic error message).</comment>
+  </data>
+  <data name="ErrorMessageOnApprove" xml:space="preserve">
+    <value>Kategorie-, Frage- und Antwortfelder sind obligatorisch, um die Antwort zu genehmigen.</value>
+    <comment>Show error message while approving the suggested response if any field is empty.</comment>
+  </data>
+  <data name="FieldRequiredMessage" xml:space="preserve">
+    <value>Dieses Feld ist erforderlich</value>
+    <comment>Error message when user did not fill all the mandatory field in client app.</comment>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Kategorie</value>
+    <comment>Label text used in form for client app.</comment>
+  </data>
+  <data name="ManageYourResponsesTitleText" xml:space="preserve">
+    <value>Verwalten Ihrer Antworten</value>
+    <comment>Manage your responses subtitle text shown below the bot name when my responses or company responses task module opens.</comment>
+  </data>
+  <data name="MaxResponsesMessage" xml:space="preserve">
+    <value>Sie können maximal 200 Benutzerantworten erstellen</value>
+    <comment>Max responses message to be displayed in client app.</comment>
+  </data>
+  <data name="MyResponsesText" xml:space="preserve">
+    <value>Ihre Antworten</value>
+    <comment>My responses text to be displayed in client app.</comment>
+  </data>
+  <data name="NotificationCardApprovedOrRejectedTitle" xml:space="preserve">
+    <value>** Vielen Dank, dass Sie eine Antwort des Unternehmens vorgeschlagen haben.**</value>
+    <comment>Show approved title for approved response request to user.</comment>
+  </data>
+  <data name="NotificationCardLabelText" xml:space="preserve">
+    <value>**Kategorie:**</value>
+    <comment>Notification card label text.</comment>
+  </data>
+  <data name="NotificationCardQuestion" xml:space="preserve">
+    <value>**Frage:**</value>
+    <comment>Notification card question.</comment>
+  </data>
+  <data name="NotificationCardRemark" xml:space="preserve">
+    <value>**Kommentar**</value>
+    <comment>Notification card remark.</comment>
+  </data>
+  <data name="NotificationCardRequestReject" xml:space="preserve">
+    <value>**Pull Antrag abgelehnt**</value>
+    <comment>Notification card request rejected.</comment>
+  </data>
+  <data name="NotificationCardRequestText" xml:space="preserve">
+    <value>Vorgeschlagen von {0}</value>
+    <comment>Notification card request reject text.</comment>
+  </data>
+  <data name="NotificationCardResponse" xml:space="preserve">
+    <value>**Antwort:**</value>
+    <comment>Notification card response.</comment>
+  </data>
+  <data name="NotificationCardStatusText" xml:space="preserve">
+    <value>Status: {0}</value>
+    <comment>Notification card status text.</comment>
+  </data>
+  <data name="NotificationRequestCardContentText" xml:space="preserve">
+    <value>**Neu! Antwort des Unternehmens zur Genehmigung **</value>
+    <comment>Notification request card content text.</comment>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Frage</value>
+    <comment>Question text for client app.</comment>
+  </data>
+  <data name="Questions" xml:space="preserve">
+    <value>Frage(n)</value>
+    <comment>Questions title text used in form for client app.</comment>
+  </data>
+  <data name="RefreshedNotificationCardRequestText" xml:space="preserve">
+    <value>Vorgeschlagen von {0}</value>
+    <comment>Notification card request text after approval or rejection.</comment>
+  </data>
+  <data name="RejectButtonTitle" xml:space="preserve">
+    <value>Ablehnen</value>
+    <comment>Reject button title text in new suggested response notification card in SME team.</comment>
+  </data>
+  <data name="RejectedAdminCardLabelText" xml:space="preserve">
+    <value>Abgelehnt: {0} von {1}</value>
+    <comment>Show datetime and rejector name for rejected request on refreshed card.</comment>
+  </data>
+  <data name="RejectedCardLabelText" xml:space="preserve">
+    <value>Zurückgewiesen: {0}</value>
+    <comment>Show datetime for rejected request.</comment>
+  </data>
+  <data name="RejectToggleCardRemarkPlaceholder" xml:space="preserve">
+    <value>Erklären Sie, warum dies abgelehnt wurde (optional)</value>
+    <comment>Reject toggle card remark placeholder text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="RejectToggleCardRemarkTitle" xml:space="preserve">
+    <value>Kommentar</value>
+    <comment>Reject toggle card remark title text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="RejectToggleCardSubmitButtonTitle" xml:space="preserve">
+    <value>Senden</value>
+    <comment>Reject toggle card submit button title text in suggested response notification card in SME team.</comment>
+  </data>
+  <data name="RequestedOnText" xml:space="preserve">
+    <value>Angefordert am</value>
+    <comment>Requested on text in client app.</comment>
+  </data>
+  <data name="RequestsMenuText" xml:space="preserve">
+    <value>Anträge</value>
+    <comment>Requests menu text in client app.</comment>
+  </data>
+  <data name="Response" xml:space="preserve">
+    <value>Antwort</value>
+    <comment>Response text used in form for client app.</comment>
+  </data>
+  <data name="SearchPlaceholder" xml:space="preserve">
+    <value>Suchen...</value>
+    <comment>Search input placeholder in client app.</comment>
+  </data>
+  <data name="StatusText" xml:space="preserve">
+    <value>Status</value>
+    <comment>Status text in client app.</comment>
+  </data>
+  <data name="SuggestButtonText" xml:space="preserve">
+    <value>Vorschlagen</value>
+    <comment>Suggest button text used in client app.</comment>
+  </data>
+  <data name="SuggestNewButtonText" xml:space="preserve">
+    <value>Neu vorschlagen</value>
+    <comment>Suggest new button text used in client app.</comment>
+  </data>
+  <data name="TypeCategoryPlaceholder" xml:space="preserve">
+    <value>Typkategorie</value>
+    <comment>Placeholder for category text input used in form for client app.</comment>
+  </data>
+  <data name="TypeQuestionPlaceholder" xml:space="preserve">
+    <value>Geben Sie Fragen ein, die durch Semikolons (;) getrennt sind.</value>
+    <comment>Placeholder for question text input used in form for client app.</comment>
+  </data>
+  <data name="TypeResponsePlaceholder" xml:space="preserve">
+    <value>Antwort eingeben</value>
+    <comment>Placeholder for response text input used in form for client app.</comment>
+  </data>
+  <data name="UpdateAndShareButtonText" xml:space="preserve">
+    <value>Aktualisierung senden</value>
+    <comment>Update and share button text in client app.</comment>
+  </data>
+  <data name="UpdateButtonText" xml:space="preserve">
+    <value>Speichern</value>
+    <comment>Update button text in client app.</comment>
+  </data>
+  <data name="WelcomeCardChatRequestorContentText" xml:space="preserve">
+    <value>- Chatten Sie mit dem Anforderer.</value>
+    <comment>Welcome card content text10.</comment>
+  </data>
+  <data name="WelcomeCardContent" xml:space="preserve">
+    <value>Klicken Sie auf die kleine Version meines Symbols in der Nähe Ihrer Nachrichtenformatierungsoptionen, um zu beginnen.</value>
+    <comment>Welcome card content text.</comment>
+  </data>
+  <data name="WelcomeCardLabelContentText" xml:space="preserve">
+    <value>- Bearbeiten Sie die Antwort der Antwort vor der endgültigen Einreichung.</value>
+    <comment>Welcome card content text9.</comment>
+  </data>
+  <data name="WelcomeCardResponseListContentText" xml:space="preserve">
+    <value>- Verwalten Sie Ihre persönlichen Antworten.</value>
+    <comment>Welcome card content text2.</comment>
+  </data>
+  <data name="WelcomeCardSuggestedContentText" xml:space="preserve">
+    <value>- Schlagen Sie neue Antworten für die unternehmensweite Verwendung vor und überprüfen Sie Ihren Anforderungsstatus.</value>
+    <comment>Welcome card content text7.</comment>
+  </data>
+  <data name="WelcomeCardSuggestResponseContentText" xml:space="preserve">
+    <value>- Schlagen Sie eine neue Antwort vor, um Unternehmensantworten hinzuzufügen.</value>
+    <comment>Welcome card content text4.</comment>
+  </data>
+  <data name="WelcomeCardThingsContentText" xml:space="preserve">
+    <value>Hier sind einige der Dinge, die ich tun kann:</value>
+    <comment>Welcome card content text1.</comment>
+  </data>
+  <data name="WelcomeCardTitle" xml:space="preserve">
+    <value>Willkommen bei! Hallo, ich kann Ihnen helfen, Ihre schnellen Antworten für die Suche und Freigabe in Chat Nachrichten zu verwalten.</value>
+    <comment>Welcome card title text.</comment>
+  </data>
+  <data name="ForbiddenErrorMessage" xml:space="preserve">
+    <value>Sie können nicht auf diese Seite zugreifen. Wenden Sie sich an Ihren IT-Administrator, um eine Genehmigung zu erhalten.</value>
+    <comment>Forbidden http status code.</comment>
+  </data>
+  <data name="GeneralErrorMessage" xml:space="preserve">
+    <value>Etwas ist schief gelaufen. Versuchen Sie es in wenigen Minuten erneut.</value>
+    <comment>General error message to be shown in client app.</comment>
+  </data>
+  <data name="RefreshLinkText" xml:space="preserve">
+    <value>Aktualisieren</value>
+    <comment>Refresh link text for error page in client app.</comment>
+  </data>
+  <data name="UnauthorizedErrorMessage" xml:space="preserve">
+    <value>Etwas ist schief gelaufen. Versuchen Sie es in wenigen Minuten erneut.</value>
+    <comment>Http status code 404</comment>
+  </data>
+  <data name="UserCustomMessage" xml:space="preserve">
+    <value>Hallo, ich unterstütze keine Bot-Befehle.</value>
+    <comment>When user asks bot a questions- a message appears saying that bot command is not supported in personal scope.</comment>
+  </data>
+  <data name="ErrorWhenMessageInChannel" xml:space="preserve">
+    <value>Die App unterstützt keine Bot-Befehle. Verwenden Sie die Messaging-Erweiterung, um bessere Ergebnisse zu erzielen.</value>
+    <comment>Error message when Admin messages in channel.</comment>
+  </data>
+  <data name="WelcomeCardContentForAdmin" xml:space="preserve">
+    <value>Hallo, ich kann Sie bei der Verwaltung der vom Benutzer eingereichten Antworten unterstützen.</value>
+    <comment>Welcome card content text for admin.</comment>
+  </data>
+  <data name="ApprovedRequestStatusText" xml:space="preserve">
+    <value>Genehmigt</value>
+    <comment>Show status as approved for approved response request to user.</comment>
+  </data>
+  <data name="RejectedRequestStatusText" xml:space="preserve">
+    <value>Zurückgewiesen</value>
+    <comment>Show status as Rejected for Rejected response request to user.</comment>
+  </data>
+  <data name="MaxCompanyResponseMessage" xml:space="preserve">
+    <value>Das maximale Limit für genehmigte Firmen Antworten wurde erreicht. Wenden Sie sich an Ihren Administrator, um weitere Details zu erhalten.</value>
+    <comment>Max responses message to be displayed in client app.</comment>
+  </data>
+  <data name="AdminManifestFullDescription" xml:space="preserve">
+    <value>Verwalteter Benutzer hat Unternehmensantworten übermittelt und vor der endgültigen Übermittlung die Kategorie der geänderten Schnellantworten, die Bezeichnung und den Antworttext geändert.</value>
+    <comment>{MaxLength=4000}
+Admin manifest full description</comment>
+  </data>
+  <data name="AdminManifestFullName" xml:space="preserve">
+    <value>Administrator-Bot für Schnellantworten</value>
+    <comment>{MaxLength=100}
+Admin manifest full name</comment>
+  </data>
+  <data name="AdminManifestShortDescription" xml:space="preserve">
+    <value>Administrator-Bot für Schnellantworten, der Sie bei der Verwaltung der von Benutzern eingereichten Antworten unterstützt.</value>
+    <comment>{MaxLength=80}
+Admin manifest short description</comment>
+  </data>
+  <data name="AdminManifestShortName" xml:space="preserve">
+    <value>Administrator für Schnellantworten</value>
+    <comment>{MaxLength=30}
+Admin manifest short name</comment>
+  </data>
+  <data name="BotCommandTakeATour" xml:space="preserve">
+    <value>Eine Tour machen</value>
+    <comment>Bot command take a tour</comment>
+  </data>
+  <data name="BotCommandTakeATourDescription" xml:space="preserve">
+    <value>Eine Tour machen</value>
+    <comment>Bot command take a tour description</comment>
+  </data>
+  <data name="ComposeExtensionCommandParameterCompanyResponse" xml:space="preserve">
+    <value>companyResponses</value>
+    <comment>Compose extension command parameter company response</comment>
+  </data>
+  <data name="ComposeExtensionCommandParameterCompanyResponseDescription" xml:space="preserve">
+    <value>Schlüsselwort oder Kategorie eingeben</value>
+    <comment>Compose extension command parameter company response description</comment>
+  </data>
+  <data name="ComposeExtensionCommandParameterYourResponse" xml:space="preserve">
+    <value>yourResponses</value>
+    <comment>Compose extension command parameter your response</comment>
+  </data>
+  <data name="ComposeExtensionCommandParameterYourResponseDescription" xml:space="preserve">
+    <value>Schlüsselwort oder Kategorie eingeben</value>
+    <comment>Compose extension command parameter your response Description</comment>
+  </data>
+  <data name="ComposeExtensionCompanyResponseDescription" xml:space="preserve">
+    <value>Vorschlagen neuer Unternehmensantworten</value>
+    <comment>Compose extension comapny response description</comment>
+  </data>
+  <data name="ComposeExtensionParameterCompanyResponseDescription" xml:space="preserve">
+    <value>Vorschlagen neuer Unternehmensantworten</value>
+    <comment>Compose extension parameter company response description</comment>
+  </data>
+  <data name="ComposeExtensionParameterYourResponseDescription" xml:space="preserve">
+    <value>Verwalten Ihrer Schnellantworten</value>
+    <comment>Compose extension parameter your response description</comment>
+  </data>
+  <data name="ComposeExtensionsCommandCompanyResponses" xml:space="preserve">
+    <value>Unternehmensantworten</value>
+    <comment>Compose extension command company response</comment>
+  </data>
+  <data name="ComposeExtensionsCommandCompanyResponsesDescription" xml:space="preserve">
+    <value>Freigeben der Unternehmensschnellantworten</value>
+    <comment>Compose extension command company response description</comment>
+  </data>
+  <data name="ComposeExtensionsCommandYourResponses" xml:space="preserve">
+    <value>Ihre Antworten</value>
+    <comment>Compose extension command your response</comment>
+  </data>
+  <data name="ComposeExtensionsCommandYourResponsesDescription" xml:space="preserve">
+    <value>Freigeben Ihrer Schnellantworten</value>
+    <comment>Compose extension command your response description</comment>
+  </data>
+  <data name="ComposeExtensionYourResponseDescription" xml:space="preserve">
+    <value>Verwalten Ihrer Schnellantworten</value>
+    <comment>Compose extension your response description</comment>
+  </data>
+  <data name="EndUserManifestFullDescription" xml:space="preserve">
+    <value>Verwalten Sie Ihre Schnellantworten und teilen Sie sie innerhalb eines Teams oder im persönlichen Chat über die Messaging-Erweiterung.</value>
+    <comment>{MaxLength=4000}
+End user manifest full description</comment>
+  </data>
+  <data name="EndUserManifestFullName" xml:space="preserve">
+    <value>Bot für Schnellantworten</value>
+    <comment>{MaxLength=100}
+End user manifest Full name</comment>
+  </data>
+  <data name="EndUserManifestShortDescription" xml:space="preserve">
+    <value>Einrichten und Senden von Schnellantworten mit der Messaging-Erweiterung.</value>
+    <comment>{MaxLength=80}
+End user manifest short description</comment>
+  </data>
+  <data name="EndUserManifestShortName" xml:space="preserve">
+    <value>Schnellantworten</value>
+    <comment>{MaxLength=30}
+End user manifest short name</comment>
+  </data>
+</root>
