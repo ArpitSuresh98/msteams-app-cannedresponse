@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "name.short": "Administrador de Respostas Rápidas",
+  "name.full": "Administrador Bot de Respostas Rápidas",
+  "description.short": "Bot do administrador de resposta rápida para ajudá-lo a gerenciar as respostas enviadas ao usuário.",
+  "description.full": "Usuário gerenciado enviou respostas da empresa e modificará o texto da categoria, rótulo e resposta da resposta rápida antes do envio final.",
+  "bots[0].commandLists[0].commands[0].title": "Faça um tour",
+  "bots[0].commandLists[0].commands[0].description": "Faça um tour"
+}
