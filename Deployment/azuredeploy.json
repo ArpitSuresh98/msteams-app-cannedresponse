@@ -258,7 +258,7 @@
             },
             {
               "name": "i18n:SupportedCultures",
-              "value": "en,fr,es,ja,ar"
+              "value": "en-US,fr-FR,es-ES,ja-JP,ar-SA,de-DE,he-IL,ko-KR,pt-BR,ru-RU,zh-CN,zh-TW"
             },
             {
               "name": "ApplicationInsights:InstrumentationKey",
